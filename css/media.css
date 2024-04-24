@@ -1,10 +1,4 @@
-/* @media (max-width: 1200px) {
-  .hero__container--figure {
-    background: url("../image/pic/figure-big.png") 96.5% 45% no-repeat,
-      url("../image/pic/figure-small.png") 64.3% 23.2% no-repeat;
-    background-size: 43.3%, 18.9%;
-  }
-} */
+
 
 @media (max-width: 1140px) {
   .hero__container {

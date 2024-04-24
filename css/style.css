@@ -76,10 +76,10 @@
 }
 
 .hero__container--figure {
-  background: url(../image/pic/figure-big.png) 97.5% 54% no-repeat, url(../image/pic/figure-small.png) 54.3% 10% no-repeat;
-    background-size: 47.3%, 20.9%;
+  background: url(../image/pic/figure-big.png) 97.5% 54% no-repeat,
+    url(../image/pic/figure-small.png) 54.3% 10% no-repeat;
+  background-size: 47.3%, 20.9%;
 }
-
 
 .hero__title {
   margin-bottom: 27px;
@@ -234,7 +234,7 @@
   background-color: #edf0f9;
 }
 
-.course-card--cinema {
+.course-card--cinema  {
   background-image: url("../image/pic/cinema.jpg");
 }
 
@@ -330,7 +330,7 @@
   width: 24px;
   height: 24px;
   border-radius: 4px;
-  transition: outline .2s, background-color .5s, scale .5s;
+  transition: outline 0.2s, background-color 0.5s, scale 0.5s;
 
   &:focus-visible {
     outline-offset: 1px;
