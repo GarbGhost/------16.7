@@ -294,4 +294,10 @@
   .button--course {
     padding: 20px 56px;
   }
+
+  .card-person__picture {
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    background-color: #fff;
+  }
 }
