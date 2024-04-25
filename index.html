@@ -26,19 +26,19 @@
       <a class="logo" href="https://skillbox.ru/courses/3d-modelirovanie/" target="_blank">
         <img src="./image/svg/logo.svg" alt="логотип Skillbox">
       </a>
-      <nav class="nav" title="Main navigation">
+      <nav class="nav" title="Меню">
         <ul class="nav__list list-reset flex">
           <li class="nav__item flex">
             <a class="nav__link flex" href="#!">Главная</a>
           </li>
           <li class="nav__item flex">
-            <a class="nav__link flex" href="#!">О нас</a>
+            <a class="nav__link flex" href="#advantages">О нас</a>
           </li>
           <li class="nav__item flex">
-            <a class="nav__link flex" href="#!">Преподаватели</a>
+            <a class="nav__link flex" href="#person">Преподаватели</a>
           </li>
           <li class="nav__item flex">
-            <a class="nav__link flex" href="#!">Курсы</a>
+            <a class="nav__link flex" href="#course">Курсы</a>
           </li>
         </ul>
       </nav>
@@ -64,7 +64,7 @@
       <div class="container">
         <div class="row advantages-top">
           <div class="advantages-wrapper advantages-wrapper--bg col-lg-9 col-md-12 col-sm-12">
-            <h2 class="title advantages-top__title">
+            <h2 class="title advantages-top__title" id="advantages">
               Преимущества обучения в&nbsp;skillbox
             </h2>
             <p class="advantages-top__descr">
@@ -100,7 +100,7 @@
     </section>
     <section class="card">
       <div class="container">
-        <h2 class="title card__title">Преподаватели курсов</h2>
+        <h2 class="title card__title" id="person" >Преподаватели курсов</h2>
         <ul class="card__list list-reset row">
           <li class="card__item col-lg-3 col-md-6 col-sm-6">
             <article class="card-person">
@@ -202,7 +202,7 @@
                     <path d="M12.5 7H11V13L16.25 16.15L17 14.92L12.5 12.25V7Z" fill="white"></path>
                   </g>
                 </svg>
-                <span>60 часов</span>
+                <span aria-label="Время обучения">60 часов</span>
               </div>
               <h3 class="course-card__title course-card__title--cinema">
                 Cinema 4d&nbsp;для начинающих
@@ -227,7 +227,7 @@
                     <path d="M12.5 7H11V13L16.25 16.15L17 14.92L12.5 12.25V7Z" fill="white"></path>
                   </g>
                 </svg>
-                <span>40 часов</span>
+                <span aria-label="Время обучения">40 часов</span>
               </div>
               <h3 class="course-card__title">Blender: продвинутый уровень</h3>
               <p class="course-card__descr course-card__descr--blender">
@@ -249,7 +249,7 @@
                     <path d="M12.5 7H11V13L16.25 16.15L17 14.92L12.5 12.25V7Z" fill="white"></path>
                   </g>
                 </svg>
-                <span>40 часов</span>
+                <span aria-label="Время обучения">40 часов</span>
               </div>
               <h3 class="course-card__title course-card__title--max">Визуализация в 3ds Max</h3>
               <p class="course-card__descr course-card__descr--max">
@@ -270,7 +270,7 @@
                     <path d="M12.5 7H11V13L16.25 16.15L17 14.92L12.5 12.25V7Z" fill="white"></path>
                   </g>
                 </svg>
-                <span>80 часов</span>
+                <span aria-label="Время обучения">80 часов</span>
               </div>
               <h3 class="course-card__title course-card__title--zbrush">Скульптинг в&nbsp;ZBrush</h3>
               <p class="course-card__descr course-card__descr--zbrush">
@@ -364,7 +364,7 @@
       </ul>
     </div>
   </footer>
-  <div class="footer-bottom">Skillbox <span>&reg;</span> 2023</div>
+  <div class="footer-bottom" aria-label="Товарный знак">Skillbox <span aria-hidden="true">&reg;</span> 2023</div>
 </body>
 
 </html>

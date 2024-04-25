@@ -5,9 +5,12 @@
   }
 
   .hero__container--figure {
-    background: url(../image/pic/figure-big.png) 96% 45.5% no-repeat,
-      url(../image/pic/figure-small.png) 63.9% 23.3% no-repeat;
+    background:
+      url("../image/pic/figure-big@2x.png"),
+      url("../image/pic/figure-small@2x.png");
+    background-position: 96% 45.5%, 63.9% 23.3%;
     background-size: 43%, 18%;
+    background-repeat: no-repeat;
   }
 
   .hero__title {
@@ -39,7 +42,9 @@
   }
 
   .advantages__descr {
-    align-items: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
 
   .card {
@@ -52,6 +57,12 @@
   }
 
   .course-card--cinema {
+    background-image: -webkit-image-set(
+      url("../image/pic/cinema-330@1x.avif") type("image/avif") 1x,
+      url("../image/pic/cinema-330@2x.avif") type("image/avif") 2x,
+      url("../image/pic/cinema-330@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/cinema-330@2x.jpg") type("image/jpeg") 2x
+    );
     background-image: image-set(
       url("../image/pic/cinema-330@1x.avif") type("image/avif") 1x,
       url("../image/pic/cinema-330@2x.avif") type("image/avif") 2x,
@@ -59,7 +70,14 @@
       url("../image/pic/cinema-330@2x.jpg") type("image/jpeg") 2x
     );
   }
+
   .course-card--blender {
+    background-image: -webkit-image-set(
+      url("../image/pic/blender-330@1x.avif") type("image/avif") 1x,
+      url("../image/pic/blender-330@2x.avif") type("image/avif") 2x,
+      url("../image/pic/blender-330@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/blender-330@2x.jpg") type("image/jpeg") 2x
+    );
     background-image: image-set(
       url("../image/pic/blender-330@1x.avif") type("image/avif") 1x,
       url("../image/pic/blender-330@2x.avif") type("image/avif") 2x,
@@ -67,7 +85,14 @@
       url("../image/pic/blender-330@2x.jpg") type("image/jpeg") 2x
     );
   }
+
   .course-card--max {
+    background-image: -webkit-image-set(
+      url("../image/pic/max-330@1x.avif") type("image/avif") 1x,
+      url("../image/pic/max-330@2x.avif") type("image/avif") 2x,
+      url("../image/pic/max-330@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/max-330@2x.jpg") type("image/jpeg") 2x
+    );
     background-image: image-set(
       url("../image/pic/max-330@1x.avif") type("image/avif") 1x,
       url("../image/pic/max-330@2x.avif") type("image/avif") 2x,
@@ -75,7 +100,14 @@
       url("../image/pic/max-330@2x.jpg") type("image/jpeg") 2x
     );
   }
+
   .course-card--zbrush {
+    background-image: -webkit-image-set(
+      url("../image/pic/zbrash-330@1x.avif") type("image/avif") 1x,
+      url("../image/pic/zbrash-330@2x.avif") type("image/avif") 2x,
+      url("../image/pic/zbrash-330@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/zbrash-330@2x.jpg") type("image/jpeg") 2x
+    );
     background-image: image-set(
       url("../image/pic/zbrash-330@1x.avif") type("image/avif") 1x,
       url("../image/pic/zbrash-330@2x.avif") type("image/avif") 2x,
@@ -110,8 +142,12 @@
   }
 
   .header__container {
-    align-items: baseline;
-    justify-content: center;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .logo {
@@ -156,11 +192,13 @@
     padding-bottom: 73px;
   }
 
-  /* .course-card {
-    padding-right: 14px;
-  } */
-
   .course-card--cinema {
+    background-image: -webkit-image-set(
+      url("../image/pic/cinema-240@1x.avif") type("image/avif") 1x,
+      url("../image/pic/cinema-240@2x.avif") type("image/avif") 2x,
+      url("../image/pic/cinema-240@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/cinema-240@2x.jpg") type("image/jpeg") 2x
+    );
     background-image: image-set(
       url("../image/pic/cinema-240@1x.avif") type("image/avif") 1x,
       url("../image/pic/cinema-240@2x.avif") type("image/avif") 2x,
@@ -168,7 +206,14 @@
       url("../image/pic/cinema-240@2x.jpg") type("image/jpeg") 2x
     );
   }
+
   .course-card--blender {
+    background-image: -webkit-image-set(
+      url("../image/pic/blender-240@1x.avif") type("image/avif") 1x,
+      url("../image/pic/blender-240@2x.avif") type("image/avif") 2x,
+      url("../image/pic/blender-240@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/blender-240@2x.jpg") type("image/jpeg") 2x
+    );
     background-image: image-set(
       url("../image/pic/blender-240@1x.avif") type("image/avif") 1x,
       url("../image/pic/blender-240@2x.avif") type("image/avif") 2x,
@@ -176,7 +221,14 @@
       url("../image/pic/blender-240@2x.jpg") type("image/jpeg") 2x
     );
   }
+
   .course-card--max {
+    background-image: -webkit-image-set(
+      url("../image/pic/max-240@1x.avif") type("image/avif") 1x,
+      url("../image/pic/max-240@2x.avif") type("image/avif") 2x,
+      url("../image/pic/max-240@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/max-240@2x.jpg") type("image/jpeg") 2x
+    );
     background-image: image-set(
       url("../image/pic/max-240@1x.avif") type("image/avif") 1x,
       url("../image/pic/max-240@2x.avif") type("image/avif") 2x,
@@ -184,7 +236,14 @@
       url("../image/pic/max-240@2x.jpg") type("image/jpeg") 2x
     );
   }
+
   .course-card--zbrush {
+    background-image: -webkit-image-set(
+      url("../image/pic/zbrash-240@1x.avif") type("image/avif") 1x,
+      url("../image/pic/zbrash-240@2x.avif") type("image/avif") 2x,
+      url("../image/pic/zbrash-240@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/zbrash-240@2x.jpg") type("image/jpeg") 2x
+    );
     background-image: image-set(
       url("../image/pic/zbrash-240@1x.avif") type("image/avif") 1x,
       url("../image/pic/zbrash-240@2x.avif") type("image/avif") 2x,
@@ -239,7 +298,8 @@
 
   .nav__list {
     padding: 26px 0px;
-    flex-wrap: unset;
+    -ms-flex-wrap: unset;
+        flex-wrap: unset;
   }
 
   .hero__container {
@@ -330,6 +390,12 @@
   }
 
   .course-card--cinema {
+    background-image: -webkit-image-set(
+      url("../image/pic/cinema-290@1x.avif") type("image/avif") 1x,
+      url("../image/pic/cinema-290@2x.avif") type("image/avif") 2x,
+      url("../image/pic/cinema-290@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/cinema-290@2x.jpg") type("image/jpeg") 2x
+    );
     background-image: image-set(
       url("../image/pic/cinema-290@1x.avif") type("image/avif") 1x,
       url("../image/pic/cinema-290@2x.avif") type("image/avif") 2x,
@@ -337,7 +403,14 @@
       url("../image/pic/cinema-290@2x.jpg") type("image/jpeg") 2x
     );
   }
+
   .course-card--blender {
+    background-image: -webkit-image-set(
+      url("../image/pic/blender-290@1x.avif") type("image/avif") 1x,
+      url("../image/pic/blender-290@2x.avif") type("image/avif") 2x,
+      url("../image/pic/blender-290@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/blender-290@2x.jpg") type("image/jpeg") 2x
+    );
     background-image: image-set(
       url("../image/pic/blender-290@1x.avif") type("image/avif") 1x,
       url("../image/pic/blender-290@2x.avif") type("image/avif") 2x,
@@ -345,7 +418,14 @@
       url("../image/pic/blender-290@2x.jpg") type("image/jpeg") 2x
     );
   }
+
   .course-card--max {
+    background-image: -webkit-image-set(
+      url("../image/pic/max-290@1x.avif") type("image/avif") 1x,
+      url("../image/pic/max-290@2x.avif") type("image/avif") 2x,
+      url("../image/pic/max-290@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/max-290@2x.jpg") type("image/jpeg") 2x
+    );
     background-image: image-set(
       url("../image/pic/max-290@1x.avif") type("image/avif") 1x,
       url("../image/pic/max-290@2x.avif") type("image/avif") 2x,
@@ -353,7 +433,14 @@
       url("../image/pic/max-290@2x.jpg") type("image/jpeg") 2x
     );
   }
+  
   .course-card--zbrush {
+    background-image: -webkit-image-set(
+      url("../image/pic/zbrash-290@1x.avif") type("image/avif") 1x,
+      url("../image/pic/zbrash-290@2x.avif") type("image/avif") 2x,
+      url("../image/pic/zbrash-290@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/zbrash-290@2x.jpg") type("image/jpeg") 2x
+    );
     background-image: image-set(
       url("../image/pic/zbrash-290@1x.avif") type("image/avif") 1x,
       url("../image/pic/zbrash-290@2x.avif") type("image/avif") 2x,
@@ -379,9 +466,4 @@
     padding: 20px 56px;
   }
 
-  /* .card-person__picture {
-    border-radius: 20px 20px 0 0;
-    overflow: hidden;
-    background-color: #fff;
-  } */
 }
